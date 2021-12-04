@@ -1,0 +1,169 @@
+@media (max-width: 992px) {
+	.flex-container {
+		flex-direction: column;
+	}
+
+	.apresentacao {
+		flex-direction: column-reverse;
+        width: 210px;
+        height: auto;
+	}
+
+	.apresentacao .texto-apresentacao {
+		width: 100%;
+	}
+
+	#quem-somos {
+		flex-direction: column-reverse;
+	}
+
+    #quem-somos h2{
+        display: block;
+    }
+
+    #quem-somos p{
+        margin: 17px;
+        text-align: justify;
+        padding: 5px;
+    }
+
+	#quem-somos img {
+		min-width: 320px;
+		margin: auto;
+	}
+
+	.list-servicos {
+		flex-direction: column;
+	}
+
+	.item-servico img {
+		width: 50%;
+		margin: auto;
+	}
+
+	.list-planos {
+		flex-direction: column;
+		align-items: flex-start;
+		margin-bottom: 20px;
+	}
+
+	.list-planos .item-plano {
+		max-width: 90%;
+		margin: auto;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	#planos h2 {
+		margin-bottom: 20px;
+	}
+
+	h1 {
+		margin-bottom: 20px;
+		margin-top: 10px;
+        text-align: center;
+	}
+	header {
+		padding-bottom: 10px;
+	}
+
+    h2{
+        text-align: center;
+    }
+
+    header{
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    header .list-items{
+        display: block;
+        text-align: center;
+        max-width: auto;   
+    }
+
+    ul li{
+        padding-bottom: 10px;
+    }
+
+    .list-items ul li a{
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .apresentacao{
+        margin: auto;
+        width: 328px;
+    }
+
+    .list-planos{
+        width: 687px;
+    }
+
+    .texto-apresentacao h1{
+        width: 82px;
+    }
+
+    .texto-apresentacao btn{
+        width: 220px;
+    }
+
+    li{
+        width: 659px;
+    }
+
+    h1{
+        width: 673px;
+    }
+
+}@media (max-width: 576px) {
+    body{
+        width: 469px;
+    }
+
+    li{
+        width: 460px;
+    }
+}
+
+@media (max-width: 360px) {
+    .titulo{
+        width: 374px;
+    }
+    
+    .flex-container .menu{
+        width: 689px;
+    }
+
+    header{
+        width: 689px;
+    }
+
+    li{
+        width: 639px;
+    }
+
+    .texto-apresentacao h1{
+        width: 644px;
+    }
+
+    #quem-somos p{
+        width: 121%;
+    }
+
+    .container-externo{
+        width: 640px;
+        background-color: #122a57;;
+    }
+
+    .list-planos{
+        width: 634px;
+    }
+
+    footer{
+        width: 634px;
+        height: 69px;
+    }
+}
